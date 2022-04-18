@@ -1,0 +1,137 @@
+h1 {
+  color:white;
+  text-align:center;
+  text-shadow: 5px 5px 3px #000000;
+  font-size:50px;
+  padding:30px;
+  border:2px;
+  margin:10px;
+  font-family: Sansita Swashed;
+  font-size: 70px;
+}
+h2 {
+  color:white;
+  text-align:center;
+  text-shadow: 5px 5px 3px #000000;
+  font-size:25px;
+  padding:0px;
+  font-family: "Sansita Swashed";
+}
+
+h3 {
+  color:white;
+  text-shadow: 2px 2px 8px #000000;
+  padding:0px;
+  margin:0px;
+  border:0px;
+  font-family: "Sansita Swashed";
+  padding:10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(17, 17, 17, 0.5);
+  font-family: "Song Myung";
+  font-weight: bold;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+  border-left:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000000;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.active {
+  background-color: #000000;
+}
+
+body, html {
+  min-height: 100%;
+  background-color:#111111; 
+}
+
+.hero-image {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.dennisgroup.com/wp-content/uploads/2018/10/Atlanta-Georgia.jpg);
+   background-position: center;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.image-blurred-edge {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url(https://www.dennisgroup.com/wp-content/uploads/2018/10/Atlanta-Georgia.jpg);
+  height:100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+  box-shadow: 0 0 8px 8px #111111 inset;
+}
+
+p {
+  color:white;
+  text-align:center;
+  text-shadow: 2px 2px 8px #000000;
+  margin:12px;
+  font-family: "Song Myung";
+  font-size:18px;
+}
+
+img {
+  width:100px;
+  height:250px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height:50px;
+}
+
+article{
+  background-color:rgba(17, 17, 17, 0.5);
+  color:white;
+  text-align:center;
+  font-family: "Song Myung";
+}
+
+a:link {
+  color:white;
+}
+
+a:visited {
+  color:white;
+}
+
+a:hover {
+  color:#808080;
+}
+
+footer {
+  position:relative;
+  bottom:0;
+  left:0;
+}

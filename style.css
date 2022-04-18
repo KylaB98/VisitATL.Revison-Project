@@ -1,0 +1,279 @@
+h1 {
+  color:white;
+  text-align:center;
+  text-shadow: 5px 5px 3px #000000;
+  font-size:50px;
+  padding:30px;
+  border:2px;
+  margin:10px;
+  font-family: Sansita Swashed;
+  font-size: 70px;
+}
+h2 {
+  color:white;
+  text-align:center;
+  text-shadow: 5px 5px 3px #000000;
+  font-size:25px;
+  padding:0px;
+  font-family: "Sansita Swashed";
+}
+
+h3 {
+  color:white;
+  background-color:rgba(17, 17, 17, 0.5);
+  text-shadow: 2px 2px 8px #000000;
+  padding:0px;
+  margin:0px;
+  border:0px;
+  font-family: "Sansita Swashed";
+  
+}
+
+#slide {
+  width:500px;
+  height:400px;
+  border: 5px solid rgba(17, 17, 17, 0.5);
+  margin-left:auto;
+  margin-right:auto;
+  animation-name:move;
+  animation-duration:18s;
+  animation-iteration-count:infinite;
+  font-family: "Sansita Swashed";
+  position:relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(17, 17, 17, 0.5);
+  font-family: "Song Myung";
+  font-weight: bold;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+  border-left:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000000;
+  padding: 16px;
+  text-decoration: none;
+  font-family: "Song Myung", sans-serif;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.active {
+  background-color: #000000;
+}
+
+body, html {
+  min-height: 100%;
+  background-color:#111111;
+  position:relative;
+}
+
+.hero-image {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.dennisgroup.com/wp-content/uploads/2018/10/Atlanta-Georgia.jpg);
+   background-position: center;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.image-blurred-edge {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url(https://www.dennisgroup.com/wp-content/uploads/2018/10/Atlanta-Georgia.jpg);
+  height:100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+  box-shadow: 0 0 8px 8px #111111 inset;
+}
+
+.slide1 {
+  background-color:#111111;
+}
+
+@keyframes move {
+  0%
+{
+  background-image: url(https://i.ytimg.com/vi/Braqy42qTlU/maxresdefault.jpg);
+  background-size:cover;
+  background-postion:center;
+  position:relative;
+}
+  35% {
+    background-image: url(https://res.cloudinary.com/atlanta/images/w_1024,h_711,c_scale/f_auto,q_auto/v1597092310/newAtlanta.com/AtlantaFoxTheatre-scaled/AtlantaFoxTheatre-1024x711.jpg?_i=AA);
+    background-size:cover;
+    background-postion:center;
+    position:relative;
+  }
+  55% {
+    background-image: url(https://res.cloudinary.com/stephens-media/image/upload/f_auto,q_auto/c_scale,w_1200/v1549044685/RJ/Patriots-Rams-Super-Bowl-Football_ne2019211012475.jpg);
+    background-size:cover;
+    background-postion:center;
+    position:relative;
+  }
+  75% {
+    background-image: url(https://www.omnihotels.com/-/media/images/hotels/atlcnn/activities/atlcnn-centennial-park.jpg?h=660&la=en&w=1170);
+    background-size:cover;
+    background-postion:center;
+    position:relative;
+  }
+  100% {
+    background-image: url(https://photos.scavengerhunt.com/scavenger_hunt_locations/Atlanta_Piedmont_Park_Scavenger_Hunt_Atlanta_Georgia_team_building_1554336778_large.jpg);
+    background-size:cover;
+    background-postion:center;
+    position:relative;
+  }
+}
+
+
+p {
+  background-color:rgba(17, 17, 17, 0.5);
+  color:white;
+  text-align:center;
+  text-shadow: 2px 2px 8px #000000;
+  margin:12px;
+  font-family: "Song Myung";
+  font-size: 20px;
+  position:relative;
+}
+
+form {
+  color:white;
+  background-color: rgba(17, 17, 17, 0.5);
+  text-shadow:2px 2px 8px #000000;
+  padding: 20px;
+  text-align:center;
+  text-size: 14px;
+  font-family: "Song Myung";
+}
+
+label {
+  width:20%;
+  text-align:right;
+  padding:2px;
+  margin:2px;
+}
+
+label, input {
+  display:inline-block;
+}
+
+input {
+  width:25%;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: "Song Myung";
+}
+
+input, textarea {
+  font-family:"Song Myung";
+  font-size: inherit;
+}
+
+textarea {
+  width: 50%;
+  height: 50px;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  border: 2px solid #c2c2c2;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-family: "Song Myung";
+}
+
+input[type=submit] {
+  background-color: #4d4d4d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  box-shadow:2px 2px 8px #000000;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Song Myung";
+}
+
+input[type=submit]:hover {
+  background-color: #575757;
+  font-family: "Song Myung";
+  box-shadow:2px 2px 8px #000000;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #c2c2c2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow:2px 2px 8px #000000;
+  font-family: "Song Myung";
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #c2c2c2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow:2px 2px 8px #000000;
+}
+
+input[type=tel] {
+  width: 50%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #c2c2c2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow:2px 2px 8px #000000;
+}
+
+img {
+  width:100px;
+  height:200px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height:50px;
+}
+
+footer {
+  bottom:0;
+  left:0;
+  position:relative;
+  font-family:"Song Myung";
+  width:100%;
+  text-align:center;
+}
